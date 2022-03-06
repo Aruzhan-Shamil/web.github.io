@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Recipes</title>
+        <link rel="icon" type="image/x-icon" href="https://drive.google.com/uc?export=view&id=1wav1_F1lngfACV4bPVp3242aY5arxOlr">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link href="D:\WebTec\StyleSheet.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-light navbar-expand-sm sticky-top border-bottom border-secondary">
+
+            <a class="navbar-brand" href="D:\WebTec\Home.html"><img src="https://drive.google.com/uc?export=view&id=1wav1_F1lngfACV4bPVp3242aY5arxOlr" alt="Icon" id="icon"></a>
+            <botton class="navbar-toggler" data-toggle="collapse" data-target="#Menu">
+                <span class="navbar-toggler-icon"></span>
+            </botton>
+            <div class="collapse navbar-collapse" id="Menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="D:\WebTec\Mains.html">Mains</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="D:\WebTec\Breakfasts.html">Breakfasts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="D:\WebTec\Desserts.html">Desserts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="D:\WebTec\Drinks.html">Drinks</a>
+                    </li>
+                </ul>    
+            </div>
+        </nav>
+
+        <div class="container justify-content-center">
+        <h1 id="waw"></h1>
+        <script type="text/javascript">
+            var i = 0, text;
+            text = "Boozy Shallot Mashed Potatoes"
+            function typing(){
+            if(i < text.length){
+            document.getElementById("waw").innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typing, 40);
+            }
+            }
+            typing();
+        </script>
+
+        <p>Whiskey gravy paired with some roasted shallot 
+        mashed potatoes could be the perfect accouterment for your turkey this year.</p>
+        </div>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="https://drive.google.com/uc?export=view&id=1gJDKJze0h-jghxQ1uAV7uw9GKDIIxuX0" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="https://drive.google.com/uc?export=view&id=12nT2Pm6YokNR7r-h03Ioj_als21x44uR" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="https://drive.google.com/uc?export=view&id=1xbnmSw25i-x5VISSfnBz5Xmbub0OgqjW" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      
+        <div class="bodydiv">
+
+        <div class="container justify-content-center">
+            <div class="row justify-content-center">
+                <div class="col-sm justify-content-center">
+                    <div class="row justify-content-center"><h2>Roasted Shallots</h2></div>
+                    <div class="row justify-content-center">
+                        <ul id="demo">
+                            <li onclick="struck(this)">3 Red Shallots</li>
+                            <li onclick="struck(this)">42 g Butter (3 pieces)</li>
+                            <li onclick="struck(this)">Coarse Salt to taste</li>
+                            <li onclick="struck(this)">Black Pepper to taste</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm justify-content-center">
+                    <div class="row justify-content-center"><h2>Mashed Potatoes</h2></div>
+                    <div class="row justify-content-center">
+                        <ul id="demo">
+                            <li onclick="struck(this)">1400 g Gold Potatoes</li>
+                            <li onclick="struck(this)">42 g Butter</li>
+                            <li onclick="struck(this)">120 g Milk</li>
+                            <li onclick="struck(this)">Dollop Sour Cream</li>
+                            <li onclick="struck(this)">Coarse Salt to taste</li>
+                            <li onclick="struck(this)">Black Pepper to taste</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm justify-content-center">
+                    <div class="row justify-content-center"><h2>Whiskey Gravy</h2></div>
+                    <div class="row justify-content-center">
+                        <ul id="demo">
+                            <li onclick="struck(this)">Turkey Neck + Trimmings</li>
+                            <li onclick="struck(this)">28 g Butter</li>
+                            <li onclick="struck(this)">10 g Carrot</li>
+                            <li onclick="struck(this)">10 g Onion</li>
+                            <li onclick="struck(this)">10 g Celery</li>
+                            <li onclick="struck(this)">1 Sprig Rosemary</li>
+                            <li onclick="struck(this)">25 g Flour</li>
+                            <li onclick="struck(this)">25 g Whiskey</li>
+                            <li onclick="struck(this)">500 g Chicken Stock</li>
+                            <li onclick="struck(this)">Coarse Salt to taste</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container justify-content-center">
+            <h1>INSTRUCTIONS</h1>
+            <h3>Roasted Shallots</h3>
+            <ol>
+                <li>Preheat the oven to 400 degrees fahrenheit (204 C).</li>
+                <li>Place the unpeeled shallots with the butter, salt and pepper in a small cast iron or oven safe pan.</li>
+                <li>Roast the shallots until they are soft and a knife easily slides through the interior (40-50 minutes). </li>
+                <li>While shallots are roasting move on to the mashed potatoes and gravy...and enjoy the smells wafting throughout the kitchen.</li>
+                <li>Once roasted, remove the outer skin, and roughly dice.</li>
+            </ol>
+            <h3>Mashed Potatoes</h3>
+            <ol>
+                <li>Fill a large pot with water and add a healthy handful of salt, approximately 10 grams of salt per 1000 grams of water, a 1% solution. Add in the cubed potatoes</li>
+                <li>Bring the water to a boil and cook until the potatoes are fork tender, about 20 minutes.</li>
+                <li>Drain the potatoes and rice (or mash) potatoes into a bowl.</li>
+                <li>Add the roasted and diced shallots, butter, milk, dollop of sour cream, salt + pepper to taste. </li>
+                <li>Mix everything together and adjust the taste / texture as you see fit.</li>
+            </ol>
+            <h3>Whiskey Gravy</h3>
+            <ol>
+                <li>Heat a pan with the butter over medium heat. Add the turkey neck and trimmings in the pan and brown them for 4-5 minutes, flipping the pieces once or twice.</li>
+                <li>Add in the diced carrot, onion, celery, rosemary, a pinch or two of salt and saute for 5-10 minutes.</li>
+                <li>Stir in the flour to create a roux. Cook for 2-3 minutes until it smells like a pie crust.</li>
+                <li>Deglaze the pan by stirring in the whiskey and immediately add the chicken stock.</li>
+                <li>Let the gravy simmer for 15-20 minutes, stirring frequently, until it thickens. Taste the gravy. Season with salt and pepper. Strain out the turkey parts and vegetables with a mesh strainer and transfer to a gravy boat.</li>
+                <li>Serve over the shallot mashed potatoes.</li>
+            </ol>
+        </div>
+        </div>
+
+
+        <footer>
+            <div class="container">
+                <div class="row footerP">
+                    <div class="col">
+                        contact us:
+                    </div>
+
+                    <div class="col">
+                        <img class="footerImg" src="https://drive.google.com/uc?export=view&id=1Kht81voX2jii7tNeDrrmvUUttuWa50Sq">
+                        <img class="footerImg" src="https://drive.google.com/uc?export=view&id=1rjm-MG_BzZK4z2fvyFLGl-jTElaPofCC">
+                        <img class="footerImg" src="https://drive.google.com/uc?export=view&id=1Ocq5D8WD91Im0HBq8UZoE9Aohl6GqBEo">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+        <script src="D:\WebTec\JavaS.js" type="text/javascript"></script>
+        </body>
+</html>

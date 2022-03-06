@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Recipes</title>
+        <link rel="icon" type="image/x-icon" href="https://drive.google.com/uc?export=view&id=1wav1_F1lngfACV4bPVp3242aY5arxOlr">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link href="D:\WebTec\StyleSheet.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-light navbar-expand-sm sticky-top border-bottom border-secondary">
+
+            <a class="navbar-brand" href="D:\WebTec\Home.html"><img src="https://drive.google.com/uc?export=view&id=1wav1_F1lngfACV4bPVp3242aY5arxOlr" alt="Icon" id="icon"></a>
+            <botton class="navbar-toggler" data-toggle="collapse" data-target="#Menu">
+                <span class="navbar-toggler-icon"></span>
+            </botton>
+            <div class="collapse navbar-collapse" id="Menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="D:\WebTec\Mains.html">Mains</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="D:\WebTec\Breakfasts.html">Breakfasts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="D:\WebTec\Desserts.html">Desserts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="D:\WebTec\Drinks.html">Drinks</a>
+                    </li>
+                </ul>    
+            </div>
+        </nav>
+
+        <div class="container justify-content-center">
+            <h1 id="waw"></h1>
+            <script type="text/javascript">
+                var i = 0, text;
+                text = "Figgy Pudding (Christmas Pudding)"
+                function typing(){
+                    if(i < text.length){
+                        document.getElementById("waw").innerHTML += text.charAt(i);
+                        i++;
+                        setTimeout(typing, 40);
+                    }
+                }
+                typing();
+            </script>
+
+            <p>It has it's origins in medieval times when dried meats and 
+            fruits were stored in a pastry bag. When liquid was added to the dried mix, 
+            it expanded and was cooked like a pie to serve many people. 
+            Over the years, the dried fruit stuck around in addition to 
+            sugars, spices, and suet or animal fat. What started as 
+            something savory, is now a dessert centerpiece enjoyed by many in the UK.</p>
+        </div>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="https://drive.google.com/uc?export=view&id=1qRboKuZhkHJn84NEo1ahpPl-bNhlFTkf" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="https://drive.google.com/uc?export=view&id=1yJhfCyIhrMeLH8oKsRUVPbEsSGYrdMeZ" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="https://drive.google.com/uc?export=view&id=1i63acuVk4H5b3xaAkli8J09LaCL1alIU" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      
+
+      
+        <div class="bodydiv">
+        <div class="container justify-content-center">
+            <div class="row justify-content-center">
+                <div class="col-sm justify-content-center">
+                    <div class="row justify-content-center"><h2>Ingredients</h2></div>
+                    <div class="row justify-content-center">
+                        <ul id="demo">
+                            <li onclick="struck(this)">Butter to grease</li>
+                            <li onclick="struck(this)">450 g mixed dried fruit - 150 g golden raisins,150 g apricots, 150 g cherries, chopped</li>
+                            <li onclick="struck(this)">100 g medjool dates, chopped</li>
+                            <li onclick="struck(this)">50 g candied ginger, chopped</li>
+                            <li onclick="struck(this)">Zest from 1/2 orange</li>
+                            <li onclick="struck(this)">Juice of 1/2 orange</li>
+                            <li onclick="struck(this)">125 g suet or beef fat</li>
+                            <li onclick="struck(this)">125 g plain flour</li>
+                            <li onclick="struck(this)">125 g dermera sugar</li>
+                            <li onclick="struck(this)">150 g fresh breadcrumbs</li>
+                            <li onclick="struck(this)">40 grams chopped walnuts</li>
+                            <li onclick="struck(this)">2 g nutmeg, 2 g cinnamon, 2 g allspice</li>
+                            <li onclick="struck(this)">2 g Coarse Kosher Salt</li>
+                            <li onclick="struck(this)">1 egg</li>
+                            <li onclick="struck(this)">150 ml stout or stale beer</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container justify-content-center">
+            <h1>INSTRUCTIONS</h1>
+            <ol>
+                <li>Grease a bowl with butter to hold the pudding (Small ceramic / pyrex heat safe bowl). Set aside.</li>
+                <li>Remove pits from the dates. Roughly chop the dried fruit, dates, and candied ginger and place in a large mixing bowl.</li>
+                <li>Finely grate in the orange zest, then squeeze in the juice.</li>
+                <li>Add in the suet, flour, sugar, breadcrumbs, chopped walnuts, and spices. Loosely mix.</li>
+                <li>Crack in the egg and pour in the beer. Mix with your hands or a spatula until the mixture holds together.</li>
+                <li>Transfer the pudding mixture to the greased bowl from earlier and cover with a double layer of tin foil. Tie a piece of string around the side of the bowl to hold the tin foil tight.</li>
+                <li>Place the pudding bowl in a large saucepan, and pour in enough water until it comes halfway up the bowl.</li>
+                <li>Bring to the boil, place a tight-fitting lid on the pan, and simmer for 3 hours. Check the water regularly, making sure that it never boils dry. The bowl could crack and burn if it does.</li>
+                <li>After 3 hours, remove the foil, and turn the pudding upside down on a plate. (Optional) Traditionally, the pudding can be aged for several weeks before Christmas in a cool, dry place.</li>
+                <li>To serve, cover the pudding with brandy and light aflame. Serve with fresh cream.</li>
+            </ol>
+        </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row footerP">
+                    <div class="col">
+                        contact us:
+                    </div>
+
+                    <div class="col">
+                        <img class="footerImg" src="https://drive.google.com/uc?export=view&id=1Kht81voX2jii7tNeDrrmvUUttuWa50Sq">
+                        <img class="footerImg" src="https://drive.google.com/uc?export=view&id=1rjm-MG_BzZK4z2fvyFLGl-jTElaPofCC">
+                        <img class="footerImg" src="https://drive.google.com/uc?export=view&id=1Ocq5D8WD91Im0HBq8UZoE9Aohl6GqBEo">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+        <script src="D:\WebTec\JavaS.js" type="text/javascript"></script>
+        </body>
+</html>

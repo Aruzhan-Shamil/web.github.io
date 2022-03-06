@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Recipes</title>
+        <link rel="icon" type="image/x-icon" href="https://drive.google.com/uc?export=view&id=1wav1_F1lngfACV4bPVp3242aY5arxOlr">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link href="D:\WebTec\StyleSheet.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-light navbar-expand-sm sticky-top border-bottom border-secondary">
+
+            <a class="navbar-brand" href="D:\WebTec\Home.html"><img src="https://drive.google.com/uc?export=view&id=1wav1_F1lngfACV4bPVp3242aY5arxOlr" alt="Icon" id="icon"></a>
+            <botton class="navbar-toggler" data-toggle="collapse" data-target="#Menu">
+                <span class="navbar-toggler-icon"></span>
+            </botton>
+            <div class="collapse navbar-collapse" id="Menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="D:\WebTec\Mains.html">Mains</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="D:\WebTec\Breakfasts.html">Breakfasts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="D:\WebTec\Desserts.html">Desserts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="D:\WebTec\Drinks.html">Drinks</a>
+                    </li>
+                </ul>    
+            </div>
+        </nav>
+
+        <div class="container justify-content-center">
+           <h1 id="waw"></h1>
+            <script type="text/javascript">
+            var i = 0, text;
+            text = "Queso Dip, Jalapeno Poppers, Sriracha Chicken"
+            function typing(){
+                if(i < text.length){
+                    document.getElementById("waw").innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(typing, 40);
+                    }
+            }
+            typing();
+            </script>
+
+
+            <p>When every day is game day, you need to have at least a couple healthy-ish options. 
+            Today we make some meaty queso dip, baked jalapeno poppers, and a spicy chicken filling that can be used for almost anything.</p>
+        </div>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="https://drive.google.com/uc?export=view&id=1XWG2VjOiwEjlOPCOfZNrlLNpKa-kZMyY" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="https://drive.google.com/uc?export=view&id=1WrJWU7GYkZj_VZ1fvLZbOjgi6icoG1dC" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="https://drive.google.com/uc?export=view&id=1U4dhSWTUXWjjS89GsOF7V2DabuSQV5sS" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+       
+
+        <div class="bodydiv">
+
+        <div class="row justify-content-center">
+            <div class="col-sm justify-content-center">
+                <div class="row justify-content-center"><h2>Meaty Jalapeno Cheese Dip</h2></div>
+                <div class="row justify-content-center">
+                    <ul id="demo">
+                        <li onclick="struck(this)">1/2 lb (227 g) Ground Turkey (99/1)</li>
+                        <li onclick="struck(this)">2 g salt</li>
+                        <li onclick="struck(this)">Sprinkle garlic powder</li>
+                        <li onclick="struck(this)">Sprinkle of chile powder</li>
+                        <li onclick="struck(this)">Sprinkle MSG (optional)</li>
+                        <li onclick="struck(this)">5 g neutral oil</li>
+                        <li onclick="struck(this)">1 jalapeno, minced</li>
+                        <li onclick="struck(this)">1 TBSP cumin seeds</li>
+                        <li onclick="struck(this)">250 ml evaporated milk</li>
+                        <li onclick="struck(this)">100 g Yellow American or other melting cheese (Velveeta, gouda, etc.)</li>
+                        <li onclick="struck(this)">100 g Cabot Light Cheddar Cheese, shredded</li>
+                        <li onclick="struck(this)">Hot sauce (optional)</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container justify-content-center">
+            <h1>INSTRUCTIONS</h1>
+            <ol>
+                <li>Prep and gather all the ingredients. Mince the jalapeno, shred the cheeses and measure the milk.</li>
+                <li>Add the turkey to a bowl along with the salt, garlic powder, chile powder, and sprinkle of MSG. Mix together.</li>
+                <li>Set a pan over medium heat with the neutral oil. Once hot, add the jalapeno and cumin seeds and toast while stirring until fragrant, about 30 seconds. Add the seasoned ground turkey and start to cook. Use a potato masher to break apart the meat into tiny little pieces.</li>
+                <li>Once the meat is browned and cooked through, add the evaporated milk and bring it to a simmer. Turn off the heat and toss in the cheeses. Stir until the cheese has melted. Adjust the consistency with more cheese or evaporated milk.</li>
+                <li>Serve with chips or make nachos!</li>
+            </ol>
+        </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row footerP">
+                    <div class="col">
+                        contact us:
+                    </div>
+
+                    <div class="col">
+                        <img class="footerImg" src="https://drive.google.com/uc?export=view&id=1Kht81voX2jii7tNeDrrmvUUttuWa50Sq">
+                        <img class="footerImg" src="https://drive.google.com/uc?export=view&id=1rjm-MG_BzZK4z2fvyFLGl-jTElaPofCC">
+                        <img class="footerImg" src="https://drive.google.com/uc?export=view&id=1Ocq5D8WD91Im0HBq8UZoE9Aohl6GqBEo">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+        <script src="D:\WebTec\JavaS.js" type="text/javascript"></script>
+        </body>
+</html>

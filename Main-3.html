@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Recipes</title>
+        <link rel="icon" type="image/x-icon" href="https://drive.google.com/uc?export=view&id=1wav1_F1lngfACV4bPVp3242aY5arxOlr">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link href="D:\WebTec\StyleSheet.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-light navbar-expand-sm sticky-top border-bottom border-secondary">
+
+            <a class="navbar-brand" href="D:\WebTec\Home.html"><img src="https://drive.google.com/uc?export=view&id=1wav1_F1lngfACV4bPVp3242aY5arxOlr" alt="Icon" id="icon"></a>
+            <botton class="navbar-toggler" data-toggle="collapse" data-target="#Menu">
+                <span class="navbar-toggler-icon"></span>
+            </botton>
+            <div class="collapse navbar-collapse" id="Menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="D:\WebTec\Mains.html">Mains</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="D:\WebTec\Breakfasts.html">Breakfasts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="D:\WebTec\Desserts.html">Desserts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="D:\WebTec\Drinks.html">Drinks</a>
+                    </li>
+                </ul>    
+            </div>
+        </nav>
+
+        <div class="container justify-content-center">
+            <h1 id="waw"></h1>
+            <script type="text/javascript">
+                    var i = 0, text;
+                    text = "Chicken Shoyu Ramen"
+                    function typing(){
+                        if(i < text.length){
+                            document.getElementById("waw").innerHTML += text.charAt(i);
+                            i++;
+                            setTimeout(typing, 40);
+                            }
+                    }
+                    typing();
+            </script>
+
+            <p>Homemade ramen seems like a lot of work, but when you break it down you realize most 
+            of the components can and really should be made ahead of time. 
+            When you do that, homemade ramen takes as fast as boiling your noodles. </p>
+        </div>
+
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="https://drive.google.com/uc?export=view&id=1XWG2VjOiwEjlOPCOfZNrlLNpKa-kZMyY" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="https://drive.google.com/uc?export=view&id=1WrJWU7GYkZj_VZ1fvLZbOjgi6icoG1dC" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="https://drive.google.com/uc?export=view&id=1U4dhSWTUXWjjS89GsOF7V2DabuSQV5sS" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+       
+
+      
+        <div class="bodydiv">
+
+        <div class="container justify-content-center">
+            <div class="row justify-content-center">
+                <div class="col-sm justify-content-center">
+                    <div class="row justify-content-center"><h2>Components</h2></div>
+                    <div class="row justify-content-center">
+                        <ul id="demo">
+                            <li onclick="struck(this)">350 ml Chicken & Ginger Soup</li>
+                            <li onclick="struck(this)">30 g Basic Shoyu Tare</li>
+                            <li onclick="struck(this)">10 g Garlic Scallion Chicken Oil</li>
+                            <li onclick="struck(this)">140 g cooked ramen noodles</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm justify-content-center">
+                    <div class="row justify-content-center"><h2>Toppings</h2></div>
+                    <div class="row justify-content-center">
+                        <ul id="demo">
+                            <li onclick="struck(this)">3 slices Rolled Chicken Thigh</li>
+                            <li onclick="struck(this)">Scallions, sliced</li>
+                            <li onclick="struck(this)">Soft boiled egg</li>
+                            <li onclick="struck(this)">Pickled onions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container justify-content-center">
+            <div class="row justify-content-center">
+                <div class="col-sm justify-content-center">
+                    <div class="row justify-content-center"><h2>Shoyu Tare</h2></div>
+                    <div class="row justify-content-center">
+                        <ul id="demo">
+                            <li onclick="struck(this)">300 g soy sauce</li>
+                            <li onclick="struck(this)">10 g kombu</li>
+                            <li onclick="struck(this)">40 g mirin</li>
+                            <li onclick="struck(this)">10 g katsuobushi (dashi flakes)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm justify-content-center">
+                    <div class="row justify-content-center"><h2>Ginger Chicken Soup</h2></div>
+                    <div class="row justify-content-center">
+                        <ul id="demo">
+                            <li onclick="struck(this)">Bones from one whole chicken (note weight)</li>
+                            <li onclick="struck(this)">2x weight of the bones in water</li>
+                            <li onclick="struck(this)">3 inch piece of ginger peeled</li>
+                            <li onclick="struck(this)">Fridge Storage: 1 week</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container justify-content-center">
+            <div class="row justify-content-center">
+                <div class="col-sm justify-content-center">
+                    <div class="row justify-content-center"><h2>Garlic Scallion Chicken Oil</h2></div>
+                    <div class="row justify-content-center">
+                        <ul id="demo">
+                            <li onclick="struck(this)">Chicken Skins from 1 whole chicken</li>
+                            <li onclick="struck(this)">Splash of water</li>
+                            <li onclick="struck(this)">2 cloves garlic</li>
+                            <li onclick="struck(this)">White ends of 5 green onions (scallion)</li>
+                            <li onclick="struck(this)">Fridge Storage: 1 week</li>                       
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm justify-content-center">
+                    <div class="row justify-content-center"><h2>Rolled Chicken Thigh</h2></div>
+                    <div class="row justify-content-center">
+                        <ul id="demo">
+                            <li onclick="struck(this)">2 boneless, skinless chicken thighs</li>
+                            <li onclick="struck(this)">Salt</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container justify-content-center">
+            <h1>INSTRUCTIONS</h1>
+            <h3>Bowl Assembly</h3>
+            <ol>
+                <li>Set a pot of water onto boil the noodles. Add your empty ramen bowl to the oven and preheat to the lowest setting (170 F) - Take it out once preheated.</li>
+                <li>Slice the chicken, scallions, and soft-boiled egg. Heat the soup in the microwave or on the stove.</li>
+                <li>Add the noodles to the boiling water and cook to the package recommendation.</li>
+                <li>Meanwhile, add 30 g of the shoyu to the bottom of the bowl along with the garlic scallion chicken oil, and the hot soup last. Strain the noodles and immediately add them to the bowl. Top with the chicken, scallions, egg, pickled onions, or any toppings of your choice. Slurp and enjoy!</li>
+            </ol>
+            <h3>Shoyu Tare</h3>
+            <ol>
+                <li>Set a container over a scale and add the soy sauce, kombu, and mirin. Put a lid over the top and set in the fridge to cold steep for at least 6 hours or up to 2 days.</li>
+                <li>When ready, pour the mixture into a pot and heat to 160 F, and hold there for about 10 minutes. Remove the kombu and add in the dashi flakes. Heat to 180 degrees and hold for 10 minutes being careful not to boil.</li>
+                <li>Strain the mixture into a jar or squirt bottle. Stores in the fridge indefinitely. Use 30 g per 350 g of UNSALTED soup. If your soup has salt it in already, adjust to taste.</li>
+            </ol>
+
+
+            <h3>Ginger Chicken Soup</h3>
+            <ol>
+                <li>Break a whole chicken down into pieces. Remove the skin from the breast, thighs, and legs for use in the chicken oil. Remove the bones from the thighs, save the backbone, and wings for the stock. Save the thighs for the rolled chicken thigh. Use the breasts and legs for whatever you want.</li>
+                <li>Set a stockpot over a scale and add the thigh bones, backbones, and wings. Note the weight down and add 2x that amount in water. Ex: 900 g bones x 2 = 1800 g water. You can add less water if you would like.</li>
+                <li>Preheat the oven to 190 F. Bring the pot to a bowl and skim the scum off the top. Add the pot with the lid cracked to the oven and let cook for 5 hours. Take the pot out and add the ginger (or other aromatics). Cook for one more hour in the oven.</li>
+                <li>Once done, strain the soup into a container. Set in the fridge overnight and skim the fat in the morning. Transfer to mason jars for 350 g serving sizes.</li>
+            </ol>
+
+            <h3>Garlic Scallion Chicken Oil</h3>
+            <ol>
+                <li>Add the chicken skin and a splash of water to a cold pan. Set the heat to medium-low and slowly render the fat. This will take at least 30 to 45 minutes. The skins should become golden brown and completely crisp. Be careful not to burn.</li>
+                <li>Once the fat is rendered, remove the chicken pieces. Toss in the garlic loves and ends of the green onions. Cook for about 10 minutes until fragrant. Strain the oil into a container and store in the fridge or freezer until ready to use.</li>
+            </ol>
+
+            <h3>Rolled Chicken Thigh</h3>
+            <ol>
+                <li>Salt the chicken thighs and let dry brine in the fridge for at least one hour.</li>
+                <li>Preheat the oven to 275. Pull the chicken out and roll up as best you can. Secure with 3 or 4 pieces of butchers twine.</li>
+                <li>Set the chicken on a wire rack over a baking sheet and place in the oven. Gently roast until the interior reaches 165 F. Wrap the chicken in plastic wrap and hold in the fridge until ready to use.</li>
+            </ol>
+
+            <h3>Soft Boiled Eggs</h3>
+            <ol>
+                <li>Set a pot of water onto boil (or steam). Add the eggs to the hot water and set a timer for 6.5 minutes. Remove and place in a bowl of ice water for 10 minutes.</li>
+                <li>Remove the shell and store in the fridge until ready to use. Optionally, you could brine them for 24 hours in salt or soy sauce.</li>
+            </ol>
+        </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row footerP">
+                    <div class="col">
+                        contact us:
+                    </div>
+
+                    <div class="col">
+                        <img class="footerImg" src="https://drive.google.com/uc?export=view&id=1Kht81voX2jii7tNeDrrmvUUttuWa50Sq">
+                        <img class="footerImg" src="https://drive.google.com/uc?export=view&id=1rjm-MG_BzZK4z2fvyFLGl-jTElaPofCC">
+                        <img class="footerImg" src="https://drive.google.com/uc?export=view&id=1Ocq5D8WD91Im0HBq8UZoE9Aohl6GqBEo">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+        <script src="D:\WebTec\JavaS.js" type="text/javascript"></script>
+        </body>
+</html>
